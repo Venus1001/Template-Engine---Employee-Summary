@@ -78,7 +78,7 @@ const promptRole = function () {
                 }
             ]).then(school => {
                 console.log(school);
-                schoolIntern = office["Github Username"];
+                schoolIntern = school["Github Username"];
                 console.log(schoolIntern);
                 promptRole2();
             })
