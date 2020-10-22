@@ -1,0 +1,24 @@
+{
+  "name": "goodreadmegenerator",
+  "version": "6.0.0",
+  "description": "auto generate a good read me file",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "inquirer": "^7.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Venus1001/Good-README-Generator.git"
+  },
+  "author": "VenusHu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Venus1001/Good-README-Generator/issues"
+  },
+  "homepage": "https://github.com/Venus1001/Good-README-Generator#readme"
+}
