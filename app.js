@@ -129,21 +129,21 @@ const promptRole3 = function () {
 
         case "Engineer":
 
-            employees.push(new Engineer(name, id, email, github));
+            employee.push(new Engineer(name, id, email, github));
 
             promptMain();
             break;
 
         case "Intern":
 
-            employees.push(new Intern(name, id, email, school));
+            employee.push(new Intern(name, id, email, school));
 
             promptMain();
             break;
 
         case "Manager":
 
-            employees.push(new Manager(name, id, email, officeNumber));
+            employee.push(new Manager(name, id, email, officeNumber));
 
             promptMain();
             break;
@@ -153,4 +153,4 @@ const promptRole3 = function () {
 
 
 promptMain();
-module.exports = employees;
+module.exports = employee;
